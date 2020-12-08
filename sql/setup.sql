@@ -1,0 +1,30 @@
+CREATE TABLE model1 (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  name TEXT NOT NULL,
+  description TEXT NOT NULL,
+  kingdom TEXT NOT NULL
+)
+-- CREATE TABLE model2 (
+--   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+--   name TEXT NOT NULL,
+--   descripttion TEXT NOT NULL,
+--   kingdom TEXT NOT NULL,
+-- );
+-- CREATE TABLE model3 (
+--   id BIGINT GENERAED ALWAYS AS IDENTITY PRIMARY KEY,
+--   name TEXT NOT NULL,
+--   descripttion TEXT NOT NULL,
+--   kingdom TEXT NOT NULL,
+-- );
+-- CREATE TABLE model4 (
+--   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+--   name TEXT NOT NULL,
+--   descripttion TEXT NOT NULL,
+--   kingdom TEXT NOT NULL,
+-- );
+-- CREATE TABLE model5 (
+--   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+--   name TEXT NOT NULL,
+--   descripttion TEXT NOT NULL,
+--   kingdom TEXT NOT NULL,
+-- );
